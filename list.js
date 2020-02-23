@@ -25,7 +25,7 @@ function completeItem() {
 
     let target=(id === 'todo')?document.getElementById('completed'):document.getElementById('todo');
     parent.removeChild(item);
-    target.insertBefore(item, target.childNodes[0]);
+    target.appendChild(item);
 }
 
 function addItemTodo(text) {

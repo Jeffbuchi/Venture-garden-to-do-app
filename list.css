@@ -188,7 +188,7 @@ ul .todo #completed:not(:empty) {
 ul .todo #completed:not(:empty):before   {
     content: '';
     width: 150px;
-    height: 1px;
+    height: 10px;
     background: #d8e5e0;
     position: absolute;
     top: 30px;
