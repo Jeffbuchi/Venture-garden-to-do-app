@@ -11,6 +11,8 @@ document.getElementById('add').addEventListener('click', function() {
     }
 });
 
+
+
 function removeItem() {
     let item = this.parentNode.parentNode;
     let parent = item.parentNode;
